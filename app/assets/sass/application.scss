@@ -16,3 +16,15 @@ $govuk-assets-path: '/govuk/assets/';
 @import "patterns/task-list";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+
+
+@media only screen and (max-width: 720px) {
+    .img-profiles {
+        width: 100%;
+    }
+  }
+
+  .img-profiles {
+    display: block;
+  }
